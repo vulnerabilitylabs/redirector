@@ -40,7 +40,7 @@ To build, use the following command which has been tested successfully on both W
 
 The project can be built against a Kotlin version of the Burp API. See the following page from my other repo which has further details about the Burp API and Kotlin.
 
-- https://github.com/bao7uo/burp-extender-api-kotlin/blob/master/README.md
+- https://github.com/vulnerabilitylabs/burp-extender-api-kotlin/blob/master/README.md
 
 To build with the Kotlin Burp API, place the API kt source files in the `src/main/kotlin/burp directory` and build with the following command.
 
@@ -54,7 +54,7 @@ This extension is simple and intuitive. It will search ALL requests made by Burp
 
 To test the extension, set the upper row hostname to pages.bao7uo.com with port 80 and HTTPS unticked. Set the lower row hostname to bao7uo.github.io with port 443 and HTTPS ticked. Leave the hostname option unticked, and click on the button to Activate redirection.
 
-Then Proxy a browser through Burp to page http://pages.bao7uo.com/target-redirector_test.html
+Then Proxy a browser through Burp to page https://vulnerabilitylabs.github.io
 
 A check of the log in Burp extender's stdout for Target Redirector should show that the redirections are taking place, as shown in the screenshot below.
 
@@ -93,6 +93,6 @@ Contributions, feedback and ideas will be appreciated.
 
 ## License notice
 
-Copyright (C) 2016-2018 Paul Taylor
+Copyright (C) 2018-2019 PotterPwn
 
 See LICENSE file for details.
